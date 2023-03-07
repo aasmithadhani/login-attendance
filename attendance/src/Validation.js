@@ -5,7 +5,7 @@ const Validation = (inputs) => {
     let errors={};
     let c=0;
 
-    if(inputs.sapid!=11)
+    if(inputs.sapid.length!=11)
     {
         errors.sapid= '*sap-id should be of 11 digits'
     }

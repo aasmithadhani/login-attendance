@@ -53,15 +53,16 @@ const Login = () => {
       display: 'flex',
       flexWrap: 'wrap',
       '& > :not(style)': {
-        m: 10,
+        m: '5%',
         
         width: '100vw',
-        height: '70vh',
+        height: '70h',
         backgroundColor: 'white',
         zIndex: 'tooltip',
-        padding:5
+        padding:2
 
       },
+      
     }}
   >
 
@@ -74,16 +75,27 @@ const Login = () => {
           flexdirection: 'rows',
           width: '80vw',
           height: '70vh',
+         
+          // alignItems: 'center'
+          
       }}>
 
 
 
-        <Grid item  sx={{mr:5}}>
+        <Grid item  sx={{
+          mr:5,
+          alignItems: 'center',
+          ml: '5%',
+          // position: 'absolute'
+          
+          
+         }}>
               <img className='imag' src={x} 
               style={{
                 width: '20%',
                 height:'7%',
-                marginLeft:80
+                marginLeft:60,
+                
 
             }}/>
             <h1 class="MuiTypography-root MuiTypography-h5 css-zq6grw ">WELCOME BACK</h1>   
@@ -97,6 +109,7 @@ const Login = () => {
               <Grid sx={{mt:7}}>
               <Textfield 
               name="sapid"
+              
               placeholder="600042100XX"
               label="Sap-id"
               size='small'
@@ -153,15 +166,21 @@ const Login = () => {
       </Grid>  
 
             
-      <Grid item
+      <Grid item className='lib'
       sx={{
         width: '80vw',
         height: '70vh',
+        ml: 10,
+        
+        
 
       }}>
+      
+      
+      
+        <img class='lib' src={y}  style={{width: '60vw',height: '70vh',borderRadius: 15 }}/> 
 
-        <img class='lib' src={y}  style={{width: '60vw',height: '70vh' }}/>
-
+    
 
       </Grid>
 
