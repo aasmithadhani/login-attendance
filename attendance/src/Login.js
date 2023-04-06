@@ -70,7 +70,7 @@ const Login = () => {
     <Paper elevation={5} component='form' >
 
 
-      <Box className='form' sx={{
+      <Box container className='form' sx={{
           display: 'flex',
           flexdirection: 'rows',
           width: '80vw',
@@ -92,9 +92,10 @@ const Login = () => {
          }}>
               <img className='imag' src={x} 
               style={{
-                width: '20%',
+                width: '25%',
                 height:'7%',
-                marginLeft:60,
+                marginLeft:70,
+                marginTop: 5
                 
 
             }}/>

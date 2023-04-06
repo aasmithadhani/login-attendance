@@ -1,0 +1,32 @@
+.header
+{
+    background-color: aquamarine;
+    margin-left: 100%;
+}
+
+/* .upcoming
+{
+    background-color: blue;
+    border-radius: 20em;
+} */
+
+.button
+{
+   color: black !important;
+   font-weight: bold !important;
+   font-size: medium !important;
+   width: 8em !important;
+   height: 70%;
+   margin-left: 5px !important;
+   border-color: rgb(191, 189, 189) !important;
+   border-radius: 10px !important;
+
+   
+} 
+
+.css-d9c359-MuiButtonBase-root-MuiToggleButton-root.Mui-selected
+{
+    color: white !important;
+    background-color: blue !important;
+}
+
